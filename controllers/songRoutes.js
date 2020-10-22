@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const router = Router();
-const Song = require('../models/Song');
+const Song = require('../models/song');
 const mongoose = require('mongoose');
 
 
