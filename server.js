@@ -8,12 +8,12 @@ const corsOptions = require('./configs/cors')
 const express = require('express')
 const app = express()
 
-const morgan = require('morgan')
+// const morgan = require('morgan')
 
 // NODE_ENV === "production" ? app.use(cors(corsOptions)) : app.use(cors())
 app.use(cors())
 app.use(express.json())
-app.use(morgan('tiny'))
+// app.use(morgan('tiny'))
 
 // app.get('/', (req, res) => {
 // 	res.json({ hello: 'Hello World' })
